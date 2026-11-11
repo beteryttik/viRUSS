@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "virussclient",
+  "version": "${version}",
+  "name": "VIruss Client",
+  "description": "Max FPS Boost + 100+ Modules. Right Shift to open menu.",
+  "authors": [
+    "VIruss"
+  ],
+  "license": "MIT",
+  "icon": "assets/virussclient/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.viruss.client.VIrussClient"
+    ]
+  },
+  "mixins": [
+    "virussclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}

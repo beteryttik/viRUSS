@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.viruss.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "client": [
+    "CpsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
